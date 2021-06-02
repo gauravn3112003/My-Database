@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    background-image: url(1.jpg) ;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+.box{
+   position:absolute;
+   display: block;
+   width: 15rem;
+   height: auto;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50% ,-50%);
+   background-color:rgba(0, 0, 0, 0.5);
+   border-top-left-radius: 20px;
+   border-bottom-right-radius: 20px;
+   box-shadow:5px 5px 10px black;
+}
+
+h1{
+
+    text-align: center;
+    margin-top: 10px;
+    color: yellow;
+    border-bottom: 2px solid red;
+}
+
+.box1{
+    margin-top: 2rem;
+    text-align: center;
+}
+.btn{
+    height: 2rem;
+    text-decoration: none;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 15%;
+   background-color: transparent;
+   color: red;
+   outline: none;
+   border: none;
+   display: inline;
+   transition: all 0.5s linear;
+
+}
+
+input{
+    outline: none;
+    border: none;
+    background-color: transparent;
+    color: white;
+    
+    border-bottom: 2px solid red;
+    height: 25px;
+}
+
+i{
+    font-size: 20px;
+    color: white;
+}
+.check{
+    color: rgb(121, 86, 86);
+    text-align: center;
+    margin-top: 10px;
+    font-size: 10px ;
+}
+.check input{
+    font-size: 5px;
+}
+
+.forgot{
+    font-size: 10px;
+    text-align: center;
+}
+
+.btn:hover{
+    font-size: 20px;
+    color: yellow;
+}
